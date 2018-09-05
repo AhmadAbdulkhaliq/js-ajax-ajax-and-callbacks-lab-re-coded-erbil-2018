@@ -1,3 +1,5 @@
-$.get( "test.php", function( data ) {
-  alert( "Data Loaded: " + data );
+$.get( "https://api.github.com/users/AhmadAbdulkhaliq", function( data ) {
+console.log("success"+ data)
+
+  
 });
