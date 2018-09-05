@@ -3,5 +3,5 @@
       $('#results').html(renderSearchResults(data))
     }).fail(error => {
       displayError()
-}
+})
 
